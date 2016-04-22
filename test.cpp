@@ -16,7 +16,7 @@ void TestBinaryTreeThd_In()
 	tree2.InThreadOrder();
 }
 
-// ǰ��
+// Ç°Ðò
 void TestBinaryTreeThd_Prev()
 {
 	int array[20] = { 1, 2, 3, '#', '#', 4, '#', '#', 5, 6 };
