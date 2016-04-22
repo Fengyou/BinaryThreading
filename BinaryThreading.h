@@ -85,14 +85,14 @@ protected:
 		{
 			_InOrderThreading(cur->_left, prev);
 			
-			//ÏßË÷»¯×óÇ°Çý
+			//ÃÃŸÃ‹Ã·Â»Â¯Ã—Ã³Ã‡Â°Ã‡Ã½
 			if (cur->_left == NULL)
 			{
 				cur->_leftTag = THREAD;
 				cur->_left = prev;
 			}
 			
-			//ÏßË÷»¯ÓÒºó¼Ì
+			//ÃÃŸÃ‹Ã·Â»Â¯Ã“Ã’ÂºÃ³Â¼ÃŒ
 			if (prev && prev->_right == NULL)
 			{
 				prev->_rightTag = THREAD;
